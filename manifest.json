@@ -1,0 +1,14 @@
+{
+    "name": "Text Fragment Copier",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "右键复制当前选中文本的高亮定位链接",
+    "permissions": ["contextMenus", "scripting", "activeTab", "clipboardWrite"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_title": "Text Fragment Copier"
+    }
+  }
+  
